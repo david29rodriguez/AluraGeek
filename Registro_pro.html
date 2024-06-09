@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Profesional</title>
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link href="https://fonts.googleapis.com/css2?family=Chocolate+Classical+Sans&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+        </ul>
+    </header>
+    <div class="form-container">
+        <form id="product-form">
+            <h2>Agregar Productos</h2>
+
+            <input type="hidden" id="product-index" name="product-index">
+
+            <div class="form-group">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="descripcion" name="descripcion" placeholder="Descripción" required>
+            </div>
+
+            <div class="form-group">
+                <input type="number" id="precio" name="precio" placeholder="Precio" required>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="imagen" name="imagen" placeholder="URL de la Imagen" required>
+            </div>
+
+            <div class="button-container">
+                <button type="submit" class="btn-submit">Enviar</button>
+                <button type="reset" class="btn-reset">Limpiar</button>
+            </div>
+        </form>
+    </div>
+     <footer>
+        <p>ALURAGEEK</p>
+        <p>&copy; 2024 John David Rodriguez. Todos los derechos reservados.</p>
+       
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

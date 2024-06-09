@@ -1,0 +1,123 @@
+
+header ul {
+  background-color: #5D04D9;
+  height:50px;
+  padding:0;
+  margin: 0;
+  margin-bottom: 20px;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+
+}
+
+header  a ,h2{
+  text-decoration: none;
+  color: #000;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 400;
+  font-style: normal;
+
+}
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+form {
+    border:none;
+    padding: 20px ;
+    width: 600px;
+    display: flex;
+    justify-content:space-between;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group input {
+    width: 100%;
+    height: 60px;
+    border-radius:40px;
+    position: relative;
+    margin-right: 10px;
+    border: 2px solid blue ;
+}
+input::placeholder {
+   left: 20px;
+   position:relative;
+}
+.button-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.btn-submit {
+    background-color:blue;
+    width:40%;
+    height:50px;
+    border: none;
+    border-radius:40px;
+    color: #fff;
+    cursor: pointer;
+}
+.btn-reset {
+    background-color:white;
+    width:40%;
+    height:50px;
+    border:2px solid blue;
+    border-radius:40px;
+    color: blue;
+    cursor: pointer;
+}
+ html, body {
+            height: 100%;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .form-container {
+            flex: 1; /* Hace que este contenedor se expanda para llenar el espacio disponible */
+        }
+
+        footer {
+            font-family: "Press Start 2P", system-ui;
+            font-weight: 400;
+            font-style: normal;
+            background-color: #5D04D9;
+            height: 100px;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+@media screen and (max-width: 1024px) {
+
+  footer {
+    font-size: 15px;
+  }
+  p{
+ margin-left: 15px;
+ margin-right: 15px;
+
+  }
+
+
+}
+
+@media screen and (max-width: 430px) {
+
+  footer {
+    font-size: 15px;
+  }
+  p{
+ margin-left: 15px;
+ margin-right: 15px;
+
+  }
+
+
+}
